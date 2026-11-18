@@ -29,8 +29,6 @@ class AudioListRenderer implements Renderer {
             }
             $html .= "</ul>";
         }
-
-        // Lien vers la fonctionnalité 3 (accessible dans l'affichage d'une playlist)
         $html .= "<p><a href='?action=add-track'>+ Ajouter une piste à cette playlist</a></p>";
         $html .= "</div>";
 
